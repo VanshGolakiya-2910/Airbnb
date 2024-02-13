@@ -662,33 +662,54 @@ body{
     flex-wrap: wrap;  
     margin-top: 50px;
 }
+.app:hover .port-image-row2{
+    
+}
+.port-image-row1{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 50px;
+}
+.port-image-row2{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 50px;
+}
+.port-image-row3{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 50px;
+}
 .port-image-app{
     width: calc(33% - 40px);
-    padding: 0px 20px;
     position: relative;
+    margin: 20px;
 }
 .port-image-app img{
     width: 100%;
+    height: 400px;
     background-size: 100% 100%;
 }
-.port-image-box{
+ .port-image-box{    
+    width: 100%;
     display: none;
     /* position: absolute; */
-}
+ } 
 .port-image-app:hover .port-image-box{
     display: block;
-}
+} 
 .port-flex{
 
     display: flex;
     justify-content: space-between;
 }
 .port-image-box{
-    height: 80px;
-    width: 400px;
+    padding: 12px;  
+    width:90%;
     background-color: #fff;
     bottom:0px;
     position: absolute;
+    margin: 20px;
 }
 .port-image-box-flex1{
     display: flex;
